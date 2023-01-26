@@ -1,0 +1,27 @@
+.card_container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro";
+}
+.card_body {
+  /* Created with https://www.css-gradient.com */
+  background: #38a6c0;
+  background: -webkit-linear-gradient(top, #38a6c0, #0ce486);
+  background: -moz-linear-gradient(top, #38a6c0, #0ce486);
+  background: linear-gradient(to bottom, #38a6c0, #0ce486);
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 1px 91px 0px rgba(135, 37, 186, 0.58);
+  -webkit-box-shadow: 0px 1px 91px 0px rgba(135, 37, 186, 0.58);
+  -moz-box-shadow: 0px 1px 91px 0px rgba(135, 37, 186, 0.58);
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

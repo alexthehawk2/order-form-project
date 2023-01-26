@@ -1,0 +1,123 @@
+.card_row {
+  width: 50vw;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.card_body {
+  height: 250px;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.card_logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.form {
+  text-align: left;
+}
+.form input::-webkit-inner-spin-button,
+.form input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.card_chip {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 35px;
+}
+.card_chip__outer {
+  display: inline-block;
+  height: 50px;
+  width: 80px;
+  background-color: #bbbbbb;
+  border-radius: 10px;
+}
+.card_chip__inner {
+  background-color: #fff;
+  display: inline-block;
+  height: 35px;
+  width: 40px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.card_number {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 35px;
+  justify-content: left;
+  font-size: 24px;
+  letter-spacing: 0.8rem;
+  height: 36px;
+  font-weight: 600px;
+}
+.card_details {
+  display: flex;
+  margin: 40px 35px 20px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card_details > span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.card_expiry {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 10px;
+}
+.card_expiry > div {
+  display: flex;
+  gap: 15px;
+}
+.card_expiry > div > span:nth-child(2) {
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+}
+.form_label_cust {
+  margin: 0;
+  margin-bottom: 5px;
+}
+@media (max-width: 1700px) {
+  .card_row {
+    flex-wrap: wrap;
+  }
+  .card_body {
+    width: 70% !important;
+  }
+}
+@media (max-width: 900px) {
+  .card_row {
+    width: 100%;
+  }
+  .card_details span {
+    font-size: medium;
+  }
+  .card_details {
+    margin: 0;
+  }
+  .card_number > span {
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    text-align: center;
+  }
+  .card_number {
+    margin: 0;
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1366px) {
+  .card_body {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .card_row {
+    flex-wrap: nowrap !important;
+  }
+}
