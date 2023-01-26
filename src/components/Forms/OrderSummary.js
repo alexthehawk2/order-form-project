@@ -27,12 +27,12 @@ const DUMMY_DATA = [
   {
     id: nanoid(),
     qty: 1,
-    title: "GTA V",
+    title: "S.T.A.L.K.E.R 2: Heart of Chornobyl",
     description:
-      "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games.",
-    price: "499",
+      "S.T.A.L.K.E.R. 2: Heart of Chornobyl is a next-gen sequel to the award-winning PC game franchise developed by GSC Game World.",
+    price: "2999",
     posterUrl:
-      "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/STALKER_2_cover_art.jpg/220px-STALKER_2_cover_art.jpg",
   },
 ];
 export default function OrderSummary() {

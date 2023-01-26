@@ -14,12 +14,12 @@ export default function CustomerDetails({ orderId }) {
     },
     hasAcceptedRentalPolicy: false,
   });
-  const [paymentMethod, setPaymentMethod] = useState("cod");
+  const [paymentMethod, setPaymentMethod] = useState("status");
   const paymentMethodHandler = (e) => {
     if (e.target.id === "card-pay") {
       setPaymentMethod("payment");
     } else {
-      setPaymentMethod("success");
+      setPaymentMethod("status");
     }
   };
   const onInputChangeHandler = (e, type) => {

@@ -1,4 +1,4 @@
-import success from "@/pages/order-details/[orderId]/success";
+import success from "@/pages/order-details/[orderId]/status";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -41,7 +41,7 @@ export default function PaymentDetails() {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    const route = router.asPath.replace("payment", "success");
+    const route = router.asPath.replace("payment", "status");
 
     router.push(route);
   };
