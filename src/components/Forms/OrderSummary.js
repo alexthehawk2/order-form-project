@@ -10,7 +10,7 @@ const DUMMY_DATA = [
     title: "Hitman 3",
     description:
       "Hitman 3 is a 2021 stealth game developed and published by IO Interactive.",
-    price: "999",
+    price: "199",
     posterUrl:
       "https://static.wikia.nocookie.net/hitman/images/3/30/HITMAN_3_Box_Art.jpg/revision/latest?cb=20210131203729",
   },
@@ -20,7 +20,7 @@ const DUMMY_DATA = [
     title: "GTA V",
     description:
       "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games.",
-    price: "499",
+    price: "299",
     posterUrl:
       "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
   },
@@ -30,7 +30,7 @@ const DUMMY_DATA = [
     title: "S.T.A.L.K.E.R 2: Heart of Chornobyl",
     description:
       "S.T.A.L.K.E.R. 2: Heart of Chornobyl is a next-gen sequel to the award-winning PC game franchise developed by GSC Game World.",
-    price: "2999",
+    price: "999",
     posterUrl:
       "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/STALKER_2_cover_art.jpg/220px-STALKER_2_cover_art.jpg",
   },
