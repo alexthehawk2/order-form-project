@@ -35,7 +35,9 @@ export default function PaymentDetails() {
         }
       }
     } else if (type === "securityNumber") {
-      setCvv(e.target.value);
+      if (e.target.value.length <= 3) {
+        setCvv(e.target.value);
+      }
     }
   };
 
